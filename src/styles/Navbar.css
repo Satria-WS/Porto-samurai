@@ -1,0 +1,38 @@
+
+/* Your custom styles here */
+
+.nav {
+  width: 100%;
+  border: 1px solid red
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+  
+}
+.nav-link {
+  flex-shrink: 0;
+  margin-right: 30px;
+  font-weight: 400;
+  font-size: 34px;
+  list-style: none;
+  line-height: normal;
+  letter-spacing: 10px;
+  color: var(--dark-gray-color);
+  transition:   border-bottom 0.4s , color 0.20s;;
+}
+.nav-link:hover {
+  color: var(--white-color);
+  /* cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur117.cur), auto !important; */
+  /* cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur220.cur), auto !important; */
+  cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1338.cur), auto !important;
+  /* text-decoration:underline red;
+  text-decoration-skip: objects; */
+  border-bottom: 3px solid var(--red-color);
+  padding-bottom: 3px;
+
+  
+}

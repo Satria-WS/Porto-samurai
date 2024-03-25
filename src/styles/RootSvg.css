@@ -1,0 +1,22 @@
+
+.box-root {
+  position: fixed;
+  
+}
+
+.right {
+  position: fixed;
+  height: 173px;
+  width: 209px;
+  top: 0;
+  right: 0;
+}
+
+.left {
+  position: fixed;
+  height: 173px;
+  width: 209px;
+  top: 0;
+  left: 0;
+}
+
