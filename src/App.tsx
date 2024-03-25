@@ -7,7 +7,9 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div className="container">
-      <Home />
+      <main>
+        <Home />
+      </main>
     </div>
   );
 }
