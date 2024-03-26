@@ -1,4 +1,54 @@
 .sand-box {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   height: 380px;
   border: 1px solid red;
+
+}
+
+
+.person {
+  border: 1px solid orange;
+  height: auto ;
+  z-index: 5;
+  
+}
+
+.person img {
+  position: relative;
+  width: 200px;
+}
+
+.shrine {
+  z-index: 7;
+
+}
+
+.RedSand {
+  position: relative;
+  top: 1%;
+  border: 1px solid violet;
+  z-index: 6;
+}
+
+.RedSand img {
+height: 80px;
+}
+
+.shrine-top {
+  position: absolute;
+  bottom: 70px;
+  width: 100px;
+
+}
+.shrine-bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+
 }

@@ -1,6 +1,6 @@
 
 .box-rock {
-  
+ position: relative;
 }
 
 
@@ -18,5 +18,6 @@
   width: 334px;
   bottom:  -10px;
   left: -20px;
+
 }
 

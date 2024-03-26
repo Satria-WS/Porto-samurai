@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <main className="main-home">
         <RootSvg />
-        <Navbar />
+     
         <div className="content">
           <aside className="sidebar-social">
             <a className="sidebar-link">
